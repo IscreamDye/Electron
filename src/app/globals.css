@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* optional base styling */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #000000; /* slate-950 */
+  color: #e5f7ff;
+}
+
+.electron-trail {
+  filter: drop-shadow(0 0 12px rgba(34,211,238,0.8));
+}
